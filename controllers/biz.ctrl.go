@@ -8,7 +8,7 @@ import (
 	. "github.com/seintun/dinesty.ninja-backend/config"
 	. "github.com/seintun/dinesty.ninja-backend/dao"
 	. "github.com/seintun/dinesty.ninja-backend/models"
-	"gopkg.in/mgo.v2/bson"
+	"github.com/globalsign/mgo/bson"
 )
 
 var config = Config{}

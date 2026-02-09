@@ -7,9 +7,9 @@ import (
 	"net/http"
 
 	. "github.com/seintun/dinesty.ninja-backend/models"
-	"gopkg.in/mgo.v2/bson"
+	"github.com/globalsign/mgo/bson"
 
-	mgo "gopkg.in/mgo.v2"
+	mgo "github.com/globalsign/mgo"
 )
 
 type BizDAO struct {

@@ -1,6 +1,6 @@
 package models
 
-import "gopkg.in/mgo.v2/bson"
+import "github.com/globalsign/mgo/bson"
 
 // Biz struct represents a basic information of restaurant business
 type Biz struct {
